@@ -114,4 +114,4 @@ var resultModel = await dota2api.GetMatchDetails(1233322);
 ```
 
 
-[I'm a relative reference to a repository file](../dota2api/bin/Release/dota2api.dll)
+[I'm a relative reference to a repository file](dota2api/bin/Release/dota2api.dll)
