@@ -1,6 +1,6 @@
 C# implementation of the dota 2 match history api
 
-<strong>Get api key for steam here:</strong
+<strong>Get api key for steam here:</strong>
 http://steamcommunity.com/dev/apikey
 
 
