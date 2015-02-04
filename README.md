@@ -2,7 +2,8 @@ Async C# implementation of the dota 2 match history api
 
 <strong>Get api key for steam here:</strong>
 http://steamcommunity.com/dev/apikey
-
+<strong>Api doc:</strong>
+http://dev.dota2.com/showthread.php?t=47115
 
 <h3>GetMatchHistory(dota2api.Models.MatchHistoryQuery?)</h3>
 Returns match history.
