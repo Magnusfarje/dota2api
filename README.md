@@ -114,4 +114,4 @@ var resultModel = await dota2api.GetMatchDetails(1233322);
 ```
 
 <h3>Download</h3>
-[dll](https://github.com/Magnusfarje/dota2api/blob/master/dota2api/bin/Release/dota2api.dll?raw=true)
+[dota2api.dll](https://github.com/Magnusfarje/dota2api/blob/master/dota2api/bin/Release/dota2api.dll?raw=true)
