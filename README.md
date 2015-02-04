@@ -6,6 +6,16 @@ http://steamcommunity.com/dev/apikey
 
 <h1>GetMatchHistory(MatchHistoryQuery?)</h1>
 <strong>MatchHistoryQuery properties:</strong>
+<table>
+<tr>
+<td>
+player_name
+</td>
+<td>
+Search matches with a player name, exact match only
+</td>
+</tr>
+</table>
 player_name         Search matches with a player name, exact match only
 hero_id             Search for matches with a specific hero being played, hero id's are in dota/scripts/npc/npc_heroes.txt in your Dota install directory
 skill               0 for any, 1 for normal, 2 for high, 3 for very high skill
