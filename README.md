@@ -15,16 +15,65 @@ player_name
 Search matches with a player name, exact match only
 </td>
 </tr>
+<tr>
+<td>
+hero_id
+</td>
+<td>
+Search for matches with a specific hero being played, hero id's are in dota/scripts/npc/npc_heroes.txt in your Dota install directory
+</td>
+</tr>
+<tr>
+<td>
+skill
+</td>
+<td>
+0 for any, 1 for normal, 2 for high, 3 for very high skill
+</td>
+</tr>
+<tr>
+<td>
+date_min
+</td>
+<td>
+date in UTC seconds since Jan 1, 1970 (unix time format)
+</td>
+</tr>
+<tr>
+<td>
+account_id
+</td>
+<td>
+Steam account id (this is not SteamID, its only the account number portion)
+</td>
+</tr>
+<tr>
+<td>
+league_id
+</td>
+<td>
+matches for a particular league
+</td>
+</tr>
+<tr>
+<td>
+start_at_match_id
+</td>
+<td>
+Start the search at the indicated match id, descending
+</td>
+</tr>
+<tr>
+<td>
+matches_requested
+</td>
+<td>
+Defaults is 100? matches, this can limit to less
+</td>
+</tr>
+
+
 </table>
-player_name         Search matches with a player name, exact match only
-hero_id             Search for matches with a specific hero being played, hero id's are in dota/scripts/npc/npc_heroes.txt in your Dota install directory
-skill               0 for any, 1 for normal, 2 for high, 3 for very high skill
-date_min            date in UTC seconds since Jan 1, 1970 (unix time format)
-date_max            date in UTC seconds since Jan 1, 1970 (unix time format)
-account_id          Steam account id (this is not SteamID, its only the account number portion)
-league_id           matches for a particular league
-start_at_match_id   Start the search at the indicated match id, descending
-matches_requested   Defaults is 100? matches, this can limit to less
 
 ```
 using dota2api;
