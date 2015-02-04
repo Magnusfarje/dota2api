@@ -4,7 +4,6 @@ Async C# implementation of the dota 2 match history api
 
 [Get api key for steam here](http://steamcommunity.com/dev/apikey)
 </br>
-
 [Api doc](http://dev.dota2.com/showthread.php?t=47115)
 
 
