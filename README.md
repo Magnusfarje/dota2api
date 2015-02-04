@@ -4,7 +4,7 @@ Async C# implementation of the dota 2 match history api
 http://steamcommunity.com/dev/apikey
 
 
-<h1>GetMatchHistory(MatchHistoryQuery?)</h1>
+<h3>GetMatchHistory(MatchHistoryQuery?)</h3>
 <strong>MatchHistoryQuery properties:</strong>
 <table>
 <tr>
@@ -75,16 +75,20 @@ Defaults is 100? matches, this can limit to less
 
 </table>
 
+<h4>Usage</h4>
 ```
 using dota2api;
 ...
 
 public async void CallApi(){
 var dota2api = new Dota2Api("<key>");
+
 var resultModel = await dota2api.GetMatchHistory();  // returns last 100 matches played.
 
-
-
+var resultModel = await dota2api.GetMatchHistory(new MatchHistoryQuery(){ // return last match where given accountid played.
+      account_id = 1233322,
+      matches_requested = 1,
+      });
 }
 ```
 
